@@ -1,0 +1,85 @@
+
+<html ng-app="yoApp">
+  <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+        <!-- Controllers AngularJs -->
+        <script src="scripts/app.js"></script>
+
+    <meta charset="utf-8">
+    <title>Foddai Valerio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="styles/home/index.css">
+    
+  </head>
+  <body>
+    <body >
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+<!-- MENU-->
+    <div class="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                  
+
+                </div>
+
+                <!-- TOGGLE NAV -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li><a class="page-scroll" href="#/">HOME</a>
+                        </li>
+                        <li><a class="page-scroll" href="#/about">ABOUT</a>
+                        </li>
+                        <li><a class="page-scroll" href="#team">PRODUCTS</a>
+                        </li>
+                        <li><a class="page-scroll" href="#press">PORTFOLIO</a>
+                        </li>
+                        <li><a class="page-scroll" href="#blog">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- TOGGLE NAV -->
+
+            </div>
+            <!-- /.container -->
+        </nav>      
+    </div>
+
+    <!-- SITO CONTAINER -->
+
+    
+    <div ng-view=""></div>
+    
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+      <div class="container">
+        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+      </div>
+    </div>
+
+
+  </body>
+</html>
