@@ -3,7 +3,7 @@
 
 .navbar-default {
     background-color: #272727;
-    border-color: #e7e7e7;
+    border-color: #272727;
 }
 .navbar-nav {
   margin: 0px -15px;
@@ -22,18 +22,27 @@
 }
 
 
-.test01 {
-  height: 300px;
-  width: 100%;
-  float: left;
-  background-color: black;
-  color: black;
+/* Footer */
+.footer {
+    padding: 2em 0px;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    font-size: 1em;
+    color: #aaa;
 }
-=
+.footer a {
+    color: #aaa;
+    margin: 0 1em;
+}
+.footer p {
+    margin-top: 20px;
+}
+
+/* MAIN PAGE */
 
 
-
-
+/* Old Site */
 .browsehappy {
   margin: 0.3em 0;
   background: #ccc;
