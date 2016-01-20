@@ -1,14 +1,9 @@
-
-
 /**
- * @ngdoc overview
- * @name yoApp
- * @description
- * # yoApp
- *
- * Main module of the application.
+Author: Valerio Foddai
+Author URL: http://Foddai.com
  */
-angular.module('yoApp', [])
+ 
+angular.module('foddaiApp', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
